@@ -6,7 +6,7 @@ import TimeLine from './components/TimeLine.vue'
 <template>
   <div>
     <div>
-      <h2>Estudando Pinia + Composition API</h2>
+      <h2>Pinia + Composition API</h2>
       <Counter />
     </div>
     <div>
