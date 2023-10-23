@@ -6,7 +6,7 @@
 import { reactive, computed } from 'vue';
 
 // cart
-const cart = reactive(data:[]);
+const cart = reactive({data: []});
 function cartRemove(index) {
   cart['data'].splice(index, 1);
 }
@@ -15,7 +15,7 @@ const showCartInfo = computed(() => {
 })
 
 // product
-const products = reactive(data:[]);
+const products = reactive({data: []});
 function productRemove(index) {
   products['data'].splice(index, 1)
 }
