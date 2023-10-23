@@ -37,6 +37,38 @@ export default defineComponent({
         criticidade: 'alta'
       },
       {
+        data: new Date('2023-04-26T18:10Z'),
+        previsto: new Date('2023-04-26T18:10Z'),
+        realizado: new Date('2023-04-26T18:15Z'),
+        duracao: null,
+        tolerancia: 20,
+        titulo: 'Vacina da gripe',
+        subtitulo: 'Posto de saúde do bairro',
+        destaque: '',
+        categoria: {
+          nome: 'Vacina',
+          icone: 'vaccines'
+        },
+        status: 'realizado',
+        criticidade: 'alta'
+      },
+      {
+        data: new Date('2023-04-26T18:10Z'),
+        previsto: new Date('2023-04-26T18:10Z'),
+        realizado: new Date('2023-04-26T18:15Z'),
+        duracao: null,
+        tolerancia: 20,
+        titulo: 'Vacina da gripe',
+        subtitulo: 'Posto de saúde do bairro',
+        destaque: '',
+        categoria: {
+          nome: 'Vacina',
+          icone: 'vaccines'
+        },
+        status: 'realizado',
+        criticidade: 'alta'
+      },
+      {
         data: new Date('2023-05-09T17:00Z'),
         previsto: new Date('2023-05-09T17:00Z'),
         realizado: null,
