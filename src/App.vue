@@ -1,15 +1,10 @@
 <script setup>
-import { useCounterStore } from './stores/CounterStore';
-
-const counter = useCounterStore();
+import Counter from './components/Counter.vue'
 
 </script>
 
 <template>
   <h2>Welcome to pinia</h2>
-  <div>
-    {{ counter.count }}
-    <button @click="counter.increment">Add</button>
-  </div>
+  <Counter />
   
 </template>
